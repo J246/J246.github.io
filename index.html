@@ -3,12 +3,21 @@
 
 <head>
 <style>
-   body {background-color:lightgray}
+   body {
+            height: 200px;
+            background: -webkit-linear-gradient(lightgray, blue); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(lightgray, blue); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(lightgray, blue); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(lightgray, blue); /* Standard syntax (must be last) */
+         }
+   
    h1   {
-            color:blue; text-align:center
-            border:1px solid black;
-            padding:10px;
-            margin:40px;
+            color:blue; 
+            text-align:center; 
+            text-shadow: 2px 2px #ff0000;
+            border: 2px solid;
+            border-radius: 10px;
+            box-shadow: 10px 10px 5px #888888;
          }
    p    {color:green; text-align:center}
 </style>
