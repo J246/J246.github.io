@@ -1,85 +1,53 @@
 <!DOCTYPE html>
-<html>
-  
-<head>
-<style>
-  
-   body {background: #000000 url("./Spac3.jpg") no-repeat top center;}
-   
-   h1   {
-            color: rgba(0, 0, 255, 0.9);
-            background-color:rgba(176, 196, 222, 0.9);
-            /*background: rgba(176, 196, 222, 0.2) url("cir.jpg") no-repeat 80% 20%;
-            background-size: 100% auto;*/
-            text-align: center;
-            text-shadow: 2px 2px #00ff00;
-            width: 60%;
-            border: 4px outset blue;
-            border-radius: 10px;
-            box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3), 0 10px 40px rgba(0, 0, 0, 0.5) inset;
-            padding: 10px 5px 15px 5px;
-            margin-top: 20%;
-            margin-left: auto;
-            margin-right: auto;
-         }
-  
-   h2   {
-            color: rgba(0, 0, 255, 0.9);
-            background-color:rgba(176, 196, 222, 0.9);
-            /*background: rgba(176, 196, 222, 0.2) url("cir.jpg") no-repeat 80% 20%;
-            background-size: 100% auto;*/
-            text-align: center;
-            text-shadow: 2px 2px #00ff00;
-            width: 40%;
-            border: 4px outset blue;
-            border-radius: 10px;
-            box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3), 0 10px 40px rgba(0, 0, 0, 0.5) inset;
-            padding: 8px 4px 12px 4px;
-            margin-top: 5%;
-            margin-left: auto;
-            margin-right: auto;
-         }
-  
-   p    {color:green; text-align:center}
-  
-   a:hover {background-color: blue;}
-  
-    /*meta http-equiv="Refresh" content="5; url=http://192.168.2.1"*/
-</style>
-</head>
+<html>  
+    <head>    
+        <style>
 
-<body>
-    <title>J246 | GitHub Repo</title>
-  
-    <h1>Coming Soon to Computers near you!! o_O</h1>
-  
-    <h2>You will be redirected to the download in <span id="seconds">10</span> seconds</h2>
-  
-    <p></p>
-  
-    <a href="http:chrome://about" target="_blank"
-       <span style="color: black; position:fixed; bottom:10pt; right:10pt; font-size:120%; text-decoration:none">About</span>
-    </a>
-  
-    <script>
-      var seconds = 10;
-      setInterval
-      (
-        function()
-        {
-          if (seconds <= 1) 
-          {
-            window.location = 'https://drive.google.com/file/d/0B9U-mq2rGtjVWWpzWEtWeENuZXc/view';
-          }
-          else 
-          {
-            document.getElementById('seconds').innerHTML = --seconds;
-          }
-        },
-        1000
-      );
-    </script>
+           body     {
+                        background-image: url("./Spac3.jpg");
+                        background-color: #000000;
+                        background-size: cover;   
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+                        background-position: center center; 
+                    }
 
-</body>
-  
+           h1       {
+                        color: rgba(0, 0, 255, 0.9);
+                        background-color:rgba(176, 196, 222, 0.9);
+                        text-align: center;
+                        text-shadow: 2px 2px #00ff00;
+                        width: 40%;
+                        border: 4px outset blue;
+                        border-radius: 10px;
+                        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3), 0 10px 40px rgba(0, 0, 0, 0.5) inset;
+                        padding: 10px 5px 15px 5px;
+                        margin-top: 20%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+
+           h1:hover {
+                        color: rgba(255, 255, 255, 0.9);
+                        background-color: white;
+                    }
+
+           a        {
+                        text-decoration:none
+                    }
+
+           a:visited{ 
+                        color: rgba(0, 0, 255, 0.9);
+                    }
+
+        </style>
+    </head>
+
+    <body>
+
+        <title>J246 | Github Repo</title>
+
+        <h1><a href="./Christadelphian_Hymn_Book.pdf">Christadelphian Hymn Book</a></h1>
+
+    </body>  
 </html>
